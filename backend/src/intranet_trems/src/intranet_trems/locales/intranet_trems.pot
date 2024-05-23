@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-05-22 12:58+0000\n"
+"POT-Creation-Date: 2024-05-23 14:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,22 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: intranet_trems\n"
+
+#: intranet_trems/src/intranet_trems/content/pessoa.py:24
+msgid "Biografia"
+msgstr ""
+
+#: intranet_trems/src/intranet_trems/content/pessoa.py:46
+msgid "Contato"
+msgstr ""
+
+#: intranet_trems/src/intranet_trems/content/pessoa.py:52
+msgid "Email"
+msgstr ""
+
+#: intranet_trems/src/intranet_trems/content/pessoa.py:28
+msgid "Estrutura"
+msgstr ""
 
 #: intranet_trems/src/intranet_trems/profiles.zcml:22
 msgid "Initial content for our website."
@@ -31,6 +47,10 @@ msgstr ""
 
 #: intranet_trems/src/intranet_trems/profiles.zcml:30
 msgid "Intranet TRE-MS: Uninstall"
+msgstr ""
+
+#: intranet_trems/src/intranet_trems/content/pessoa.py:23
+msgid "Nome Completo"
 msgstr ""
 
 #: intranet_trems/src/intranet_trems/profiles/default/types/Pessoa.xml

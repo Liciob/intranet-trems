@@ -19,10 +19,10 @@ def is_valid_extension(value: str) -> bool:
 
 class IPessoa(Schema):
     """Definição de uma pessoa no TRE-MS."""
-    
+
     title = schema.TextLine(title=_("Nome Completo"), required=True)
     description = schema.Text(title=_("Biografia"), required=False)
-    
+
     model.fieldset(
         "estrutura",
         _("Estrutura"),
@@ -40,7 +40,7 @@ class IPessoa(Schema):
             title="Área", vocabulary=StaticCatalogVocabulary({"portal_type": ["Area"]})
         ),
     )
-    
+
     model.fieldset(
         "contato",
         _("Contato"),
@@ -60,4 +60,3 @@ class IPessoa(Schema):
 @implementer(IPessoa)
 class Pessoa(Container):
     """Uma pessoa no TRE-MS."""
-

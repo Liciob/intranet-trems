@@ -1,9 +1,18 @@
 // This theme extends the volto-light-theme
 // it is injected
 
+// This theme extends the volto-light-theme
+// it is injected
+
+// This theme extends the volto-light-theme
+// it is injected
+
 :root {
   --narrow-container-width: 1100px;
   --default-container-width: 1100px;
+  --main-color: #1330a5;
 }
-
-@import 'components/view/area_view';
+body.section-estrutura {
+  --main-color: pink;
+}
+@import 'blocks/clima';
